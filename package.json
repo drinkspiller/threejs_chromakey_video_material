@@ -1,0 +1,35 @@
+{
+  "name": "THREEjs_Chromakey_ESM Class_and_Demo",
+  "version": "1.0.0",
+  "description": "A THREE.JS ShaderMaterial that removes a specified color (e.g. green screen) from a video or image texture.",
+  "browserslist": "last 2 Chrome versions, last 2 Firefox versions, last 2 Edge versions, last 2 Safari versions, last 2 Android versions, last 2 ChromeAndroid versions, last 2 iOS versions",
+  "source": "index.html",
+  "scripts": {
+    "start": "npx parcel",
+    "dev": "npm run start",
+    "build": "npx parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drinkspiller/threejs_chromakey_video_material.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2",
+    "@parcel/transformer-typescript-tsc": "^2.6.2",
+    "@parcel/validator-typescript": "^2.6.2",
+    "@types/dat.gui": "^0.7.7",
+    "@types/three": "^0.141.0",
+    "@typescript-eslint/parser": "^5.30.5",
+    "eslint": "^8.19.0",
+    "eslint-config-google": "^0.14.0",
+    "parcel": "^2.6.2",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "rxjs": "^7.5.5",
+    "three": "^0.142.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "extends": "google",
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "parserOptions": {
+    "parser": "@typescript-eslint/parser",
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "parser": "@typescript-eslint/parser",
+  "rules": {
+    "no-unused-vars": "warn",
+    "require-jsdoc": "off"
+  }
+}
