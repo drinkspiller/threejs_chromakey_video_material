@@ -2,7 +2,6 @@
 node_modules
 package-lock.json
 .sass-cache
-dist/
 
 # System Files
 .DS_Store
