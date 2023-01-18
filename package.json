@@ -7,7 +7,7 @@
   "scripts": {
     "start": "npx parcel",
     "dev": "npm run start",
-    "build": "npx parcel build --dist-dir docs"
+    "build": "npx parcel build --dist-dir docs  --public-url ./"
   },
   "repository": {
     "type": "git",
