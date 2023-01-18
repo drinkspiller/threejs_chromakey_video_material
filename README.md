@@ -1,5 +1,5 @@
 
-# threex-esm
+# ChromaKeyMaterial
 
 A THREE.JS ShaderMaterial that removes a specified color (e.g. green screen) from a video or image texture.
 
